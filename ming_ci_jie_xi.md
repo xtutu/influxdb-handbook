@@ -1,15 +1,18 @@
-# 名词解析
-
 # 名词解释
-这里先将以下场景:  
-我们有一个数据库名为testDB，里面有一张表weather用于记录：多个地区在几组海拔下的一天的温度变化，所以表中有以下字段：
+在上一个章节中，已经建立了一个名为testDB的数据库。在之后的演示中，都将在这个数据库上操作。  
+
+在InfluxDB中有不少名词，初学者非常容易搞混，这一节主要就是对这些名词进行解释。
+
+## 场景定义  
+我们有一个数据库名为testDB，里面有一张表weather用于记录：多个地区在几组海拔下的一天的温度变化，所以表中有以下字段：  
 1. 时间 time
 2. 温度 temperature
 3. 湿度 humidity
 3. 地区 area
 4. 海拔 altitude
 
-## 数据库、表、数据
+## 与传统数据库中的名词做比较
+
 
 | influxDB中的名词  | 传统数据库中的概念   | 
 | :----:   | :----: | 
@@ -51,7 +54,7 @@ time                    altitude        area    humidity        temperature
 
 它的series为：
 ```js
-> show series from  weather
+> show series from weather
 name: weather
 -------------
 _key                            altitude        area
