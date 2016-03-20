@@ -1,6 +1,6 @@
 # 数据保存策略（Retention Policies）
-InfluxDB没有提供直接删除Points的方法，但是它提供了Retention Policies。这要用于指定数据的保留时间。     
-当数据超过了指定的时间之后，就会被删除。
+InfluxDB没有提供直接删除Points的方法，但是它提供了Retention Policies。  
+主要用于指定数据的保留时间：当数据超过了指定的时间之后，就会被删除。
 
 ## 查看当前数据库的Retention Policies
 
