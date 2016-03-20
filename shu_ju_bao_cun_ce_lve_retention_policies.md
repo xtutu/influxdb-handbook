@@ -17,7 +17,7 @@ CREATE RETENTION POLICY "rp_name" ON "db_name" DURATION 30d REPLICATION 1 DEFAUL
 2. db_name：具体的数据库名
 3. 30d：保存30天，30天之前的数据将被删除  
 它具有各种时间参数，比如：h（小时），w（星期）
-4. REPLICATION 1：副本个数，这里添1就可以了
+4. REPLICATION 1：副本个数，这里填1就可以了
 5. DEFAULT 设为默认的策略
 
 ## 修改Retention Policies
