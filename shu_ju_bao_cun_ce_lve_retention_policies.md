@@ -27,7 +27,7 @@ ALTER RETENTION POLICY "rp_name" ON db_name" DURATION 3w DEFAULT
 
 ## 删除Retention Policies
 ```bash
-DROP RETENTION POLICY "rp_name"
+DROP RETENTION POLICY "rp_name" ON "db_name"
 ```
 
 
