@@ -1,4 +1,7 @@
 # InfluxDB简明手册
+
+手册在线地址: [https://xtutu.gitbooks.io/influxdb-handbook/content/](https://xtutu.gitbooks.io/influxdb-handbook/content/)  
+
 ------
 手册不断完善中，欢迎 **pull request!**   
 **如果对你有所帮助，请给一个Star!**      
@@ -7,9 +10,9 @@
 -------
 
 
-手册在线地址: [https://www.gitbook.com/read/book/xtutu/influxdb-handbook](https://www.gitbook.com/read/book/xtutu/influxdb-handbook)  
 
-作者博客: [http://www.xtutu.me/](http://www.xtutu.me/)
+
+
 
 
 ## 项目介绍
